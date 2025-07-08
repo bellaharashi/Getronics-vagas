@@ -1,0 +1,39 @@
+name: 🔒 Fechar Issues de Usuários Não Autorizados
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  fechar-nao-autorizado:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verificar autor da issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const autorizados = ['bellaharashi']; // ← Adicione aqui os usuários autorizados
+            const autor = context.payload.issue.user.login;
+
+            if (!autorizados.includes(autor)) {
+              const issue_number = context.issue.number;
+              const repo = context.repo.repo;
+              const owner = context.repo.owner;
+
+              // Comentário automático
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body: `🚫 Esta vaga foi aberta por um usuário não autorizado (@${autor}) e será fechada automaticamente.\n\nSe você acredita que isso foi um engano, entre em contato com os responsáveis pelo repositório.`
+              });
+
+              // Fechamento automático
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number,
+                state: 'closed'
+              });
+            }
