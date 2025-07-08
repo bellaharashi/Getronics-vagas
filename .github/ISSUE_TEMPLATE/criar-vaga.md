@@ -7,15 +7,6 @@ assignees: ''
 
 ---
 
----
-name: Criar vaga
-about: criar novas vagas
-title: "[Alocação] -  NomeDaEmpresa - Titulo da Vaga."
-labels: ''
-assignees: ''
-
----
-
 <!-- 👇 ATENÇÃO: Preencha todas as informações abaixo antes de publicar a vaga -->
 
 ## 🏢 Sobre a Empresa
