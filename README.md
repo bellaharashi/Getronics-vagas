@@ -20,7 +20,7 @@ As vagas são publicadas **como issues**, com detalhes sobre a vaga, requisitos,
 
 Para publicar uma nova vaga:
 
-1. Acesse a aba [**Issues**](https://github.com/cauet-code/tec-vagas/issues)
+1. Acesse a aba [**Issues**](https://github.com/bellaharashi/Getronics-vagas/issues)
 2. Clique em **"New issue"**
 3. Escolha o template `📄 Nova Vaga`
 4. Preencha todos os campos com atenção
@@ -40,7 +40,7 @@ Você pode ser notificado sempre que uma nova vaga for postada ou atualizada!
 
 ### 📬 Receber atualizações por e-mail ou notificações:
 
-1. Vá até a aba [**Issues**](https://github.com/cauet-code/tec-vagas/issues)
+1. Vá até a aba [**Issues**](https://github.com/bellaharashi/Getronics-vagas/issues)
 2. Clique em **"🔔 Notifications"** (ou **"Watch"** / **"Subscribe"**)
 3. Selecione:
 
