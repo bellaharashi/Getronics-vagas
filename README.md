@@ -66,5 +66,4 @@ Entre em contato via [issues](https://github.com/SEU_USUARIO/TEC-VAGAS/issues) o
 ---
 
 <p align="center">
-  Feito com 💚 pela equipe da <strong>TEC</strong>
 </p>
