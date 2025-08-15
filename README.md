@@ -1,7 +1,7 @@
 <h1 align="center">🚀 Getroncis Vagas </h1>
 
 <p align="center">
-  Espaço exclusivo para divulgação de vagas da <strong>TEC</strong>, voltadas a profissionais de tecnologia: <br />
+  Espaço exclusivo para divulgação de vagas da <strong>Getronics</strong>, voltadas a profissionais de tecnologia: <br />
   <strong>back-end, front-end, fullstack, mobile, design, devops, dados e mais</strong>.
 </p>
 
@@ -9,7 +9,7 @@
 
 ## 🧩 O que é isso?
 
-Este repositório foi criado para centralizar e organizar as vagas abertas na TEC.  
+Este repositório foi criado para centralizar e organizar as vagas abertas na Getronics.  
 As vagas são publicadas **como issues**, com detalhes sobre a vaga, requisitos, localização, forma de contratação e como se candidatar.
 
 ---
