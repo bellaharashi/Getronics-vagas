@@ -1,4 +1,4 @@
-<h1 align="center">🚀 TEC VAGAS</h1>
+<h1 align="center">🚀 Getroncis Vagas </h1>
 
 <p align="center">
   Espaço exclusivo para divulgação de vagas da <strong>TEC</strong>, voltadas a profissionais de tecnologia: <br />
